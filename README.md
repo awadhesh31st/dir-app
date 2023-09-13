@@ -19,7 +19,7 @@ To run the project, you can use the following commands:
 
 ```bash
 # Install dependencies
-npm install
+npm install | yarn install
 
 # Start the development server
-npm start
+npm start | yarn start
