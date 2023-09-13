@@ -1,26 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { FolderCompoment } from "./components/Folder";
+import { DirMockData } from "./mock/dir-mock";
 
-function App() {
+export const App = () => {
+  const mockData = DirMockData;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <FolderCompoment {...mockData} />
     </div>
   );
-}
-
-export default App;
+};
