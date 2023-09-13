@@ -2,6 +2,8 @@
 
 This repository contains the folder and file structure created using React components based on the provided data.
 
+<img width="209" alt="Screenshot 2023-09-13 at 11 54 00 PM" src="https://github.com/awadhesh31st/dir-app/assets/91739540/0b547312-23d4-4cba-9d9d-fea88d8582bd">
+
 ## Folder Structure
 
 - `src`: The root folder.
